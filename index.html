@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar-titulo">
+            <nav id="navbar-text">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="aboutme.html" class="nav-link active">Sobre mi</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <br><br><br>
+ <section class="nav-body">
+    <br>
+    <img src="archivos/imagenes/bradperez.jpg" class="brad_icono">
+    <h1><b>Brad Angel <br> Perez Herrera</b></h1>
+    <div id="perfil_profesional">
+        <h2><b>Perfil Profesional</b></h2>
+        <p>Técnico en Informática especializado en ciberseguridad, 
+            Brad Ángel Pérez Herrera busca su primera oportunidad 
+            en el campo. Con sólidos conocimientos en software y hardware, 
+            estoy listo para poner en práctica mis habilidades y 
+            aprender de los expertos. Mi disposición para trabajar 
+            en equipo y mi compromiso con la excelencia me convierten 
+            en un valioso miembro para cualquier organización.</p>
+    </div>
+    <br><br>
+    <a href="archivos/cv.docx" download="archivo.doc" id="cv" style="margin-left: 50px;">
+        <button class="cv">Curriculum</button>
+    </a>
+    <br><br>
+    <div id="resumen">
+        <h2><b>Resumen</b></h2>
+        <p> Esta pagina web tiene como objetivo darme a conocer e impulsarme 
+            al campo laboral, en esta web podrás encontrar desde un asistente, 
+            virtual, hasta proyectos personales. En la sección de inicio tienes 
+            mi perfil profesional y mi curriculum, disponible para descargar.
+            En la sección "Sobre mí" tienes toda la información relacionada a mi: 
+            mis datos academicos, dominios, habilidades y habilidades blandas.
+            En la sección de "Proyectos" encontrarás todos los proyectos en 
+            los cuales he formado parte o liderado.
+            Y por ultimo: en la sección de contacto encontrarás información 
+            personal con la cual podrás contactarte o comunicarte conmigo,
+            ahi se halla el mapa de mi ubicación fisica, un formulario de contacto
+            y mis redes sociales ¡gracias por leer y visitar mi portafolio web!.</p>
+    </div>
+ </section>
+
+ <script type="text/javascript" id="asistente">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '66f7288893bdab1056691496' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+
+<footer>
+    <p>&copy; 2024 Brad Angel Perez Herrera. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

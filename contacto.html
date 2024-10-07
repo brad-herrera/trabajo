@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Contacto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar-titulo">
+            <nav id="navbar-text">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="aboutme.html" class="nav-link active">Sobre mi</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <div class="section-contacto">
+        <form class="contact-form">
+            <h3>Ingresa tu información <br>
+                y te contactaré en breves
+            </h3>
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+            <h3 style="text-align: center;">¡mis Redes sociales!</h3>
+            <div class="social-icons">
+                <a href="https://web.facebook.com/profile.php?id=61566646557992" 
+                target="_blank"><img src="archivos/imagenes/facebook.png" 
+                alt="Facebook" style="width:40px; height:40px;"><br>Facebook
+                </a>
+
+                <a href="https://x.com/thresh_capitan" 
+                target="_blank"><img src="archivos/imagenes/twitter.png" 
+                alt="Twitter" style="width:40px; height:40px;"><br>Twitter
+                </a>
+
+                <a href="https://www.instagram.com/capitan.thresh/" 
+                target="_blank"><img src="archivos/imagenes/instagram.png" 
+                alt="Instagram" style="width:40px; height:40px;"> <br>Instagram
+                </a>
+
+                <a href="https://www.linkedin.com/in/brad-perez-997b26212/"
+                target="_blank"> <img src="archivos/imagenes/linkedin.png" alt="Linkedin"
+                style="width:40px; height:40px;"> <br> LinkedIn</a>
+        </form>
+    </div>
+
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1672.823503674528!2
+            d-71.54363629712971!3d-33.01305704545863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1
+            s0x9689e0da0bd61a27%3A0x11db7114108081e7!2sCFT%20PUCV!5e0!3m2!1ses-419!2scl!4v1727651334979!5m2!1ses-419!2scl"
+            width="100%" height="100%" 
+            frameborder="0" 
+            style="border:0;"  
+            aria-hidden="false" 
+            tabindex="0"
+            alt="11 Nte. 1225, 2531030 Viña del Mar, Valparaíso"></iframe>
+            <a>11 Nte. 1225, 2531030 Viña del Mar, Valparaíso</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" id="asistente">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '66f7288893bdab1056691496' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+<footer>
+    <p>&copy; 2024 Brad Angel Perez Herrera. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>

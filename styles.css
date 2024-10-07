@@ -1,0 +1,229 @@
+.brad_icono{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 5%;
+    border-style: solid;
+    border-color: #000;
+    border-width: 3px;
+    position: absolute;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 8px;
+}
+  
+#navbar-titulo {
+    width: 750px;
+    height: 50px;
+    font-size: xx-large;
+    color: #000;
+    padding: 1rem 0;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #405979;
+    border-width: 1px;
+    background-color: rgba(81, 95, 156, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#navbar-text {
+    font-size: xx-large;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+body{
+    background-color: #305252;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.nav-body{
+    text-align: justify;
+    text-indent: 0px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-color: #160c3f;
+    border-style: solid;
+    border-radius: 2px;
+    background-color: #B7D5D4;
+
+}
+
+ul{
+    margin-left: 30px;
+    font-size: x-large;
+}
+
+h1{
+    font-size: 45px;
+    margin-top: 95px;
+    margin-bottom: 200px;
+    margin-left: 350px;
+
+}
+
+
+h2{
+    text-indent: 25px;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+h3{
+    text-indent: 25px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+h4{
+    font-size: x-large;
+    margin-left: 30px;
+}
+
+p{
+    font-size: 25px;
+    font-size: 25px;
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 30px;
+}
+
+.proyectoides {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+.proyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.img-proyecto {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: #000;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.section-contacto {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #cbe4e3;
+    border-style: solid;
+    border-color: #160c3f;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    margin: 0 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-form {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.map-container {
+    width: 80%;
+    height: 450px;
+    border-style: solid;
+    border-color: #242219;
+    margin-bottom: 50px;
+}
+
+.cv{
+    background-color: #6200ea;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.cv:hover {
+    background-color: #3700b3;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);}
+
+
+footer {
+    font-size: x-small;
+    margin-top: 10px;
+    background-color: rgba(81, 95, 156, 0.45);
+    color: #000000;
+    border-style: solid;
+    border-color: #28314e;
+    border-radius: 2px;
+    border-width: 2px;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;
+    width: 100%;
+    bottom: 0;
+}
